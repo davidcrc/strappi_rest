@@ -1,3 +1,6 @@
 @url = http://localhost:1337/news
 
 GET {{url}}
+
+### Wdth parameters
+GET {{url}}?_sort=created_at:DESC
